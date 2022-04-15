@@ -1,0 +1,24 @@
+---
+title: "milestone2"
+author: "Ashwathy Subramanyan - asub986"
+date: "15/04/2022"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+## Data Processing
+
+```{r}
+dim(reviews)
+names(reviews)
+```
+
+```{r}
+reviews2 <- reviews %>%
+  mutate(group = )
+```
+
